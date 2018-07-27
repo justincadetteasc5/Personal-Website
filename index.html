@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+        <script src = "justincadette.js"></script>
+        <script src = "justincadette.css"></script>
+        <body>
+            <!-- Container for the image gallery -->
+<div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          
+            <img src="http://www.fcsymphony.org/wp-content/uploads/2017/03/viola.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+            <img src="http://bestanimations.com/Sports/Basketball/epic-basketball-dunk-animated-gif-2.gif" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+            <img src="http://25.media.tumblr.com/070a302a5bcaf116176b72c0890d1e19/tumblr_mt73zr5eDo1rkbo6ho1_400.gif" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+            <img src="img_lights_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          
+            <img src="img_nature_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+            <img src="img_snow_wide.jpg" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="http://www.fcsymphony.org/wp-content/uploads/2017/03/viola.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+          </div>
+          <div class="column"> 
+            <img class="demo cursor" src="http://bestanimations.com/Sports/Basketball/epic-basketball-dunk-animated-gif-2.gif" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="http://25.media.tumblr.com/070a302a5bcaf116176b72c0890d1e19/tumblr_mt73zr5eDo1rkbo6ho1_400.gif" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+          </div> 
+          <div class="column">
+            <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+          </div>
+        </div>
+      </div>
+
+
+      
+        </body>
+    </head>
 </html>
